@@ -11,12 +11,4 @@ const Variant = ({ text }: { text: string }) => {
   return <Component text={text} />;
 };
 
-function App() {
-  return (
-    <>
-      <Variant text="+ loaded from Host" />
-    </>
-  );
-}
-
-export default App;
+export default Variant;
